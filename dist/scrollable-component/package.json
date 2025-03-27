@@ -1,0 +1,34 @@
+{
+  "name": "scrollable-component",
+  "version": "2.0.0-next.0",
+  "description": "Native viewport with custom scrollbars 🖱️",
+  "homepage": "https://scrollable.julien-marcou.fr/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julien-marcou/scrollable-component"
+  },
+  "keywords": [
+    "customizable",
+    "scrollbar",
+    "custom",
+    "scroll",
+    "scrollable",
+    "native",
+    "viewport",
+    "component",
+    "custom-element",
+    "web-component"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "debug": "node build.js --debug"
+  },
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "csso": "^5.0.2",
+    "html-minifier-terser": "^6.1.0",
+    "terser": "^5.10.0"
+  }
+}
